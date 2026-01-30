@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: radial-gradient(circle at center, #3A3A3A 0%, #1A1A1A 100%);
+  font-family: 'Helvetica Neue', Arial, sans-serif; /* Minimalist font */
+  color: white;
+}
+
+/* Canvas container gradient for deeper ambience */
+#canvas-container {
+  background: radial-gradient(circle at center, #3A3A3A 0%, #1A1A1A 100%);
+}
+
+/* Stronger frosted glass controls panel */
+.controls-panel {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+/* Custom Scrollbar for UI if needed */
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.05);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 2px;
+}
